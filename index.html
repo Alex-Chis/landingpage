@@ -1,32 +1,34 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>Landing Page</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    
     <nav>
-      <div class="menu-list">
-        <img class="logo" src="img/icon.png" width="25px" height="20px" />
+      <input type="checkbox" id="sidebar-activate">
+      <label for="sidebar-activate" class="open-sidebar-button">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+      </label>
+
+      <div class="links-container">
+        <label for="sidebar-activate" class="close-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        </label>
+
         <a href="#">About</a>
         <a href="#">Blog</a>
         <a href="#">Testimonials</a>
         <a href="#">Resources</a>
       </div>
-      <div class="buttons-list">
-        <img class="toggle-btn" src="img/toogle.png" height="20px" />
-        <button class="request-btn">Request Code</button>
-      </div>
+      <button type="button" id="request-btn">Request code</button>
+        
     </nav>
-
 
     <section class="first-section">
       <div class="first-container">
@@ -41,16 +43,16 @@
           </p>
           <div class="request-container">
             <input type="email" id="email" name="email" placeholder="Phone number" />
-            <button class="request-btn2">Request Code</button>
+            <button type="button" class="request-btn2">Request Code</button>
           </div>
           <ul>
-            <div><img src="img/check.PNG"/><li>Lorem ipsum is placeholder text commonly,</li></div>
-            <div><img src="img/check.PNG"/><li>Excepteur Sint crcaecat cupdatat.</li></div>
-            <div><img src="img/check.PNG"/><li>Lorem ipsum is placeholder text commonly,</li>
+            <li><img src="img/check.PNG" width="20px" height="20px"/>Lorem ipsum is placeholder text commonly,</li>
+            <li><img src="img/check.PNG"width="20px" height="20px"/>Excepteur Sint crcaecat cupdatat.</li>
+            <li><img src="img/check.PNG"width="20px" height="20px"/>Lorem ipsum is placeholder text commonly,</li>
           </ul>
         </div>
 
-        <img id="phone" src="img/phone.png" alt="phone" width="200px" height="400px" />
+        <img id="phone" src="img/phone.png" alt="phone" />
       </div>
       <div class="stats">
         <div class="rectangle">
@@ -72,6 +74,7 @@
       </div>
     </section>
     <hr>
+    <!--
     <section class="second-section">
         <h1>From rough design files, to<br>
             powerful products</h1>
@@ -111,7 +114,7 @@
                             <p>4 Min</p>
                         </div>
                         
-                    </div>
+                    
                    
                       
 
@@ -137,6 +140,7 @@
                 </div>
                 
     </section>
+
     <section class="n4-section">
         <h1>Build and style<br/> every
             element to perfection</h1>
@@ -276,7 +280,9 @@
         <p>@2024 Apply. All rights reserverd. Coded by Alex</p>
         <p> Terms Privacy Policy</p>
         <p>Am reusit lol</p>
-    </section>
+    </section> -->
+
+
     <!-- De facut restu sectiunilor-->
   </body>
 </html>
